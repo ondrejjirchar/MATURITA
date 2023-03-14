@@ -1,0 +1,28 @@
+body {
+  background-color: #cdcaca;
+  text-align: center;
+  color: black;
+}
+.buttons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.buttons button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}
